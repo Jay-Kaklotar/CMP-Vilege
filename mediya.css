@@ -1,0 +1,285 @@
+@media only screen and (max-width:1000px) {
+    /* body {
+        background-color: rgba(0, 128, 0, 0.47);
+    } */
+
+    .mid_logo_nav {
+        /* text-align: center; */
+        left: 0;
+        position: static;
+    }
+
+}
+
+@media only screen and (max-width:810px) {
+    /* body {
+        background-color: rgba(0, 126, 128, 0.484);
+    } */
+
+    .Left_search {
+        display: none;
+    }
+
+    #icon {
+        display: block;
+        z-index: 4;
+    }
+
+    #heading_2 {
+        display: block;
+    }
+
+    .mid_logo_nav {
+        margin: 77px 0px 30px 0px;
+    }
+
+    .mid_logo {
+        font-size: 30px;
+        font-family: sans-serif;
+        margin-bottom: 18px;
+        font-weight: bold;
+    }
+
+    #headar {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        margin: 0px 0;
+        border: 1px solid #6f92ca;
+        transform: translate(50rem, 0rem);
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #E3F2FD;
+        width: 66%;
+        height: 100%;
+        justify-content: normal;
+        z-index: 1;
+    }
+
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .nav ul li {
+        margin: 15px 0px;
+    }
+
+    .nav ul li a {
+        margin: 0px 0px;
+    }
+
+    .rigth_login p {
+        margin-right: 0px;
+    }
+
+    .content {
+        height: 12rem;
+    }
+
+    .social_ftr {
+        margin: 11rem 0px 0px 0px;
+        display: block;
+    }
+
+    .social_head {
+        font-weight: 100;
+        font-family: math;
+    }
+
+    .social_icon {
+        margin: 6px 0px 28px -10px;
+    }
+
+    .social_icon a i {
+        color: black;
+        font-size: 20px;
+        margin: 0px 13px;
+        transition: all 0.3s ease-in-out;
+        overflow: none;
+    }
+
+    .social_icon a i:hover {
+        scale: 1.5;
+    }
+
+    .nav_pera {
+        font-family: monospace;
+    }
+
+    #section {
+        width: 84%;
+    }
+
+    #section h3 {
+        font-size: 23px;
+    }
+
+    #section h1 {
+        font-size: 40px;
+    }
+
+
+    #section p {
+        font-size: 15px;
+    }
+
+    #section button {
+        padding: 11px 16px;
+        font-size: 15px;
+    }
+
+    .card {
+        width: 29rem;
+        height: 19rem;
+    }
+
+    .section_head {
+        margin-top: 5rem;
+    }
+
+}
+
+@media only screen and (max-width:540px) {
+    /* body {
+        background-color: rgba(0, 6, 128, 0.484);
+    } */
+
+    #headar {
+        width: 100%;
+    }
+
+    #heading_2 {
+        text-align: start;
+        margin: 19px 21px;
+        font-size: 18px;
+    }
+
+    .content {
+        height: 10rem;
+    }
+
+    .about_card {
+        margin: 0px;
+    }
+
+    .about_card img {
+        width: 41vw;
+        height: auto;
+        display: block;
+    }
+
+    .content_abt h2 {
+        font-size: 20px;
+    }
+
+    .content_abt p {
+        font-size: 15px;
+    }
+
+    #section {
+        width: auto;
+        padding: 0px 25px;
+        margin-top: 2rem;
+
+    }
+
+    #section h3 {
+        font-size: 17px;
+    }
+
+    #section h1 {
+        font-size: 20px;
+    }
+
+
+    #section p {
+        font-size: 12px;
+    }
+
+    #section button {
+        padding: 9px 11px;
+        font-size: 10px;
+    }
+
+    .section_pic {
+        margin-top: 4rem;
+    }
+
+    .card {
+        width: 73vw;
+        height: 48vw;
+        border-radius: 20px;
+    }
+
+    .card::after {
+        height: 58%;
+        width: 80%;
+    }
+
+    .card::before {
+        border-radius: 20px;
+    }
+
+    .section_head {
+        margin-top: 3.3rem;
+    }
+
+    .article_head {
+        font-size: 21px;
+    }
+
+    .item_1 h2 {
+        font-size: 18px;
+    }
+
+    .item_pera {
+        font-size: 14px;
+    }
+
+    .article_Btn {
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .article_Btn button {
+        padding: 9px 11px;
+        font-size: 10px;
+    }
+
+    .clint_head {
+        font-size: 25px;
+        padding-top: 4.5rem;
+    }
+
+    .clint_ponsar {
+        margin-top: 4.5rem;
+        font-size: 25px;
+    }
+
+    .clint_card {
+        margin-top: 4rem;
+    }
+
+    .clint_card_1 {
+        height: auto;
+    }
+
+    .clint_card_head {
+        margin-top: 2rem;
+    }
+
+    .clint_card_1 p {
+        margin: 2.3rem 25px 0px 25px;
+    }
+    
+
+    .clint_card_pic_1 img {
+        width: 5pc;
+    }
+
+    .clint_card_pic_2 img {
+        width: 6pc;
+    }
+}
